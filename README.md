@@ -10,6 +10,10 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 ```
 
+Windows
+
+- [ ] Install Python
+
 Python venv
 
 ```sh
