@@ -1,0 +1,111 @@
+master_images:
+  - id: "P1F1"
+    src: "./images/Ambercycle-Ambition.jpg"
+    alt: "Pilot-Scale Reactor with Neutch Filter and Solvent Regenerator"
+    caption: "Pilot-Scale Reactor with Neutch Filter and Solvent Regenerator"
+    enabled: true
+  - id: "P1F2"
+    src: "./images/Ambercycle-Solace-1.jpg"
+    alt: "Rooftop Condenser For Solvent Recovery"
+    caption: "Rooftop Condenser For Solvent Recovery"
+    enabled: true
+  - id: "P1F3"
+    src: "./images/Ambercycle-Solace-2.jpg"
+    alt: "Liquid-Gas Bubbling Heat Exchanger"
+    caption: "Liquid-Gas Bubbling Heat Exchanger"
+    enabled: true
+  - id: "P1F4"
+    src: "./images/Ambercycle-MiniReactor.jpg"
+    alt: "Rapidly Constructed Lab Reactor (Neutch Type Filter)"
+    caption: "Rapidly Constructed Lab Reactor (Neutch Type Filter)"
+    enabled: true
+  - id: "P1F5"
+    src: "./images/Ambercycle-HoodReactor-2.jpg"
+    alt: "Compact Reactor / Filter System Made to Fit in Benchtop Hood"
+    caption: "Compact Reactor / Filter System Made to Fit in Benchtop Hood"
+    enabled: true
+  - id: "P1F6"
+    src: "./images/Ambercycle-HoodReactor-3.jpg"
+    alt: "Compact Reactor / Filter System Made to Fit in Benchtop Hood"
+    caption: "Compact Reactor / Filter System Made to Fit in Benchtop Hood"
+    enabled: true
+  - id: "P1F7"
+    src: "./images/Ambercycle-Solace-3.jpg"
+    alt: "High-Pressure Pilot-Scale Reactor with Regenerative Solvent Rinsing"
+    caption: "High-Pressure Pilot-Scale Reactor with Regenerative Solvent Rinsing"
+    enabled: true
+  - id: "P1F8"
+    src: "./images/Ambercycle-Solace-4.jpg"
+    alt: "Valve Controller for High-Pressure Pilot-Scale Reactor"
+    caption: "Valve Controller for High-Pressure Pilot-Scale Reactor"
+    enabled: true
+  - id: "P2F1"
+    src: "./images/Intel-DLA-3.jpg"
+    alt: "Microprocessor Lidding Machine"
+    caption: "Microprocessor Lidding Machine"
+    enabled: true
+  - id: "P2F2"
+    src: "./images/Intel-DLA-1.jpg"
+    alt: "Microprocessor Lidding Machine (Full View)"
+    caption: "Microprocessor Lidding Machine (Full View)"
+    enabled: true
+  - id: "P2F3"
+    src: "./images/Intel-DLA-2.jpg"
+    alt: "Microprocessor Lidding Machine (Alternate Angle)"
+    caption: "Microprocessor Lidding Machine (Alternate Angle)"
+    enabled: true
+  - id: "P2F4"
+    src: "./images/Intel-HPTest.jpg"
+    alt: "High-Pressure Tester for Microchannel Heat Exchangers"
+    caption: "High-Pressure Tester for Microchannel Heat Exchangers"
+    enabled: true
+  - id: "P3F1"
+    src: "./images/PhD-SMAPZT-1.jpg"
+    alt: "Shape Memory Actuator with Piezoelectric Sensor Feedback"
+    caption: "Shape Memory Actuator with Piezoelectric Sensor Feedback"
+    enabled: true
+  - id: "P3F2"
+    src: "./images/PhD-SMACatapult.jpg"
+    alt: "Shape Memory Alloy Actuated Catapult"
+    caption: "Shape Memory Alloy Actuated Catapult"
+    enabled: true
+  - id: "P4F1"
+    src: "./images/RRMetals-GrayGate.jpg"
+    alt: "Large Custom Metal Gate"
+    caption: "Large Custom Metal Gate"
+    enabled: true
+  - id: "P4F2"
+    src: "./images/RRMetals-LinenRacks-1.jpg"
+    alt: "Space and Strength Optimized Linen Racks 1"
+    caption: "Space and Strength Optimized Linen Racks 1"
+    enabled: true
+  - id: "P4F3"
+    src: "./images/RRMetals-LinenRacks-2.jpg"
+    alt: "Space and Strength Optimized Linen Racks 2"
+    caption: "Space and Strength Optimized Linen Racks 2"
+    enabled: true
+  - id: "P4F4"
+    src: "./images/RRMetals-LinenRacks-3.jpg"
+    alt: "Space and Strength Optimized Linen Racks 3"
+    caption: "Space and Strength Optimized Linen Racks 3"
+    enabled: true
+  - id: "P4F5"
+    src: "./images/RRMetals-LinenRacks-4.jpg"
+    alt: "Space and Strength Optimized Linen Racks 4"
+    caption: "Space and Strength Optimized Linen Racks 4"
+    enabled: true
+  - id: "P5F1"
+    src: "./images/Masters-SamplePrep-1.jpg"
+    alt: "IN-718 TEM Sample Preparation"
+    caption: "IN-718 TEM Sample Preparation"
+    enabled: true
+  - id: "P5F2"
+    src: "./images/Masters-SamplePrep-2.jpg"
+    alt: "TEM Sample Polishing Aid"
+    caption: "TEM Sample Polishing Aid"
+    enabled: true
+  - id: "P6F5"
+    src: "./images/LinkdIn-QR.jpg"
+    alt: "QR Code For LinkedIn Account"
+    caption: "QR Code For LinkedIn Account"
+    enabled: true

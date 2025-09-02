@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-inter relative">
+    <!-- Navigation -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Blake K. Rogers, PhD</h1>
+        <nav class="space-x-4">
+          <a href="#home" class="hover:underline">Home</a>
+          <a href="#projects" class="hover:underline">Projects</a>
+          <a href="#research" class="hover:underline">Research</a>
+          <a href="#gallery" class="hover:underline">Gallery</a>
+          <a href="#about" class="hover:underline">About</a>
+          <a href="https://www.linkedin.com/in/blakekrogers/" class="hover:underline">LinkdIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="h-screen bg-cover bg-center"
+      style="background-image: url('./images/PhD-SMAPZT-1.jpg');">
+      <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+        <div class="text-center text-white">
+          <h2 class="text-4xl font-bold mb-4">Engineering Meets Innovation</h2>
+          <p class="mb-6">Solving complex challenges with elegant hardware solutions.</p>
+          <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded">Explore My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Overview -->
+    <section id="projects" class="py-16 px-4 bg-white">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-8 text-center">Projects</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Project cards link to sub-sections -->
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-reactors"
+              ><img src="./images/Ambercycle-Solace-3.jpg" alt="Pilot and Lab Scale Reactors" class="mb-4 rounded"
+c            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-reactors" class="hover:underline">Pilot and Lab Scale Reactors</a>
+            </h4>
+          </div>
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-smart-materials"
+              ><img src="/images/sma-pzt-finger.jpg" alt="Smart Materials" class="mb-4 rounded"
+            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-smart-materials" class="hover:underline">Smart Materials: SMA & PZT</a>
+            </h4>
+          </div>
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-automation"
+              ><img src="/images/intel-assembler.jpg" alt="Instrumentation & Automation" class="mb-4 rounded"
+            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-automation" class="hover:underline">Instrumentation & Automation</a>
+            </h4>
+          </div>
+          <!-- Additional cards -->
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-metallurgy"
+              ><img src="/images/machined-sample-stack.jpg" alt="Metallurgy Sample Prep" class="mb-4 rounded"
+            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-metallurgy" class="hover:underline">Metallurgy Sample Prep</a>
+            </h4>
+          </div>
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-fabrication"
+              ><img src="/images/custom-gate.jpg" alt="Structural Fabrication" class="mb-4 rounded"
+            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-fabrication" class="hover:underline">Structural Fabrication</a>
+            </h4>
+          </div>
+          <div class="bg-gray-50 p-4 rounded shadow">
+            <a href="#project-pilot-vessel"
+              ><img src="/images/pilot-vessel.jpg" alt="Pilot Vessel Systems" class="mb-4 rounded"
+            /></a>
+            <h4 class="font-bold text-lg">
+              <a href="#project-pilot-vessel" class="hover:underline">Pilot Vessel Systems</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Subpages as Sections -->
+    <!-- Reactors -->
+    <section id="project-reactors" class="py-16 px-4 bg-gray-100">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Pilot and Lab Scale Reactors</h3>
+        <p class="mb-6 text-gray-700">
+          Designed to process textiles and study nanomaterial synthesis, these reactors supported high-volume and
+          laboratory-scale chemical pathways including solvent recovery and heat transfer optimization.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="./images/Ambercycle-HoodReactor-1.jpg" alt="Lab Scale Reactor" class="rounded shadow" />
+          <img src="/images/mini-reactor.jpg" alt="Mini Reactor" class="rounded shadow" />
+          <img src="/images/heat-exchanger.jpg" alt="Heat Exchanger" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Smart Materials -->
+    <section id="project-smart-materials" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Smart Materials: SMA & PZT</h3>
+        <p class="mb-6 text-gray-700">
+          Projects like the SMA-PZT actuator and capacitor-driven catapult showcased high-precision mechatronics using
+          shape memory alloys and piezoelectric sensors for feedback control.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/sma-pzt-finger.jpg" alt="SMA PZT Finger" class="rounded shadow" />
+          <img src="/images/catapult.jpg" alt="SMA Catapult" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Automation -->
+    <section id="project-automation" class="py-16 px-4 bg-gray-50">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Instrumentation & Automation</h3>
+        <p class="mb-6 text-gray-700">
+          Modular DAQ and assembly test rigs designed for Intel featured PID control, solenoid automation, and LabVIEW
+          integration for high-accuracy thermal testing.
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/intel-assembler.jpg" alt="Intel Assembler" class="rounded shadow" />
+          <img src="/images/intel-press-test.jpg" alt="Intel Press Test" class="rounded shadow" />
+          <img src="/images/ambition.jpg" alt="AMbition Rig" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Metallurgy -->
+    <section id="project-metallurgy" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Metallurgy Sample Prep</h3>
+        <p class="mb-6 text-gray-700">High-throughput sample stacking and preparation for microstructural analysis.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/machined-sample-stack.jpg" alt="Machined Sample Stack" class="rounded shadow" />
+          <img src="/images/aluminum-cap-stack.jpg" alt="Precision Sample Assembly" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Fabrication -->
+    <section id="project-fabrication" class="py-16 px-4 bg-gray-100">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Structural Fabrication</h3>
+        <p class="mb-6 text-gray-700">Design and fabrication of custom steel gate for industrial applications.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/custom-gate.jpg" alt="Custom Steel Gate" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilot Vessel -->
+    <section id="project-pilot-vessel" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Pilot Vessel Systems</h3>
+        <p class="mb-6 text-gray-700">Pilot-scale vessel assembly for process development and scale-up studies.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/pilot-vessel.jpg" alt="Pilot Vessel Assembly" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Feed System -->
+    <section id="project-lab-feed" class="py-16 px-4 bg-gray-50">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Lab Automation Feed System</h3>
+        <p class="mb-6 text-gray-700">Automated chemical feed and control systems for precise lab-scale operations.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/chemical-feed-system.jpg" alt="Chemical Feed System" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Tank Model -->
+    <section id="project-tank-model" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-2xl font-bold mb-4">Miniature Tank Model</h3>
+        <p class="mb-6 text-gray-700">Scaled tank model for demonstration and testing of fluid dynamics.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="/images/miniature-tank.jpg" alt="Miniature Tank Model" class="rounded shadow" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Electrical Rewiring -->
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 px-4 bg-white">
+      <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-8 text-center">Gallery</h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Project-linked Images -->
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/lab-scale-react.jpg"
+              alt="Lab Scale Reactor"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-reactors" class="underline text-blue-600">Lab Scale Reactor</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img src="/images/mini-reactor.jpg" alt="Mini Reactor" class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2"><a href="#project-reactors" class="underline text-blue-600">Mini Reactor</a></p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/heat-exchanger.jpg"
+              alt="Heat Exchanger"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2"><a href="#project-reactors" class="underline text-blue-600">Heat Exchanger</a></p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/sma-pzt-finger.jpg"
+              alt="SMA PZT Finger"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-smart-materials" class="underline text-blue-600">SMA PZT Finger</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img src="/images/catapult.jpg" alt="SMA Catapult" class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-smart-materials" class="underline text-blue-600">SMA Catapult</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/intel-assembler.jpg"
+              alt="Intel Assembler"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-automation" class="underline text-blue-600">Intel Assembler</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/intel-press-test.jpg"
+              alt="Intel Press Test"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-automation" class="underline text-blue-600">Intel Press Test</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img src="/images/ambition.jpg" alt="AMbition Rig" class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2"><a href="#project-automation" class="underline text-blue-600">AMbition Rig</a></p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/machined-sample-stack.jpg"
+              alt="Machined Sample Stack"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-metallurgy" class="underline text-blue-600">Machined Sample Stack</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/aluminum-cap-stack.jpg"
+              alt="Precision Sample Assembly"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-metallurgy" class="underline text-blue-600">Precision Sample Assembly</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/custom-gate.jpg"
+              alt="Custom Steel Gate"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-fabrication" class="underline text-blue-600">Custom Steel Gate</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/pilot-vessel.jpg"
+              alt="Pilot Vessel Assembly"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-pilot-vessel" class="underline text-blue-600">Pilot Vessel Assembly</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/chemical-feed-system.jpg"
+              alt="Chemical Feed System"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-lab-feed" class="underline text-blue-600">Chemical Feed System</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/miniature-tank.jpg"
+              alt="Miniature Tank Model"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-tank-model" class="underline text-blue-600">Miniature Tank Model</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/beetle-wiring-before.jpg"
+              alt="Beetle Wiring Before"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-electric-rewire" class="underline text-blue-600">Automated Lid Atachment And Sealing For Microprocessor Package Assembly</a>
+            </p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/beetle-wiring-after.jpg"
+              alt="Beetle Wiring After"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">
+              <a href="#project-electric-rewire" class="underline text-blue-600">Beetle Wiring After</a>
+            </p>
+          </div>
+          <!-- Gallery-only assets -->
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/valve-control.jpg"
+              alt="Valve Control System"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Valve Control System</p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img src="/images/solace.jpg" alt="Solace Concept" class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Solace Concept</p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img src="/images/condenser.jpg" alt="Condenser Unit" class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Condenser Unit</p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/fabric-rack.jpg"
+              alt="Commercial Garment Rack"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Commercial Garment Rack</p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/glass-aluminum-table.jpg"
+              alt="Aluminum Glass Table"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Aluminum Glass Table</p>
+          </div>
+          <div class="text-center gallery-item cursor-pointer">
+            <img
+              src="/images/micromanipulator.jpg"
+              alt="Micromanipulator Setup"
+              class="rounded shadow hover:opacity-80 mx-auto" />
+            <p class="text-sm mt-2">Micromanipulator Setup</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    $2
+    <section id="research" class="py-16 px-4 bg-gray-100">
+      <div class="container mx-auto max-w-4xl">
+        <h3 class="text-3xl font-bold mb-6 text-center">Research</h3>
+        <ul class="space-y-4 text-sm">
+          <li>
+            <strong>Study of Decahedral Multimetallic Nanoparticles</strong><br /><em
+              >Physical Chemistry Chemical Physics, 2025</em
+            ><br /><a href="https://doi.org/10.1039/D5CP00109A" class="underline text-blue-600">DOI Link</a>
+          </li>
+          <li>
+            <strong>Structure and Strain Analysis Using Electron Diffraction</strong><br /><em
+              >ProQuest Dissertation, 2025</em
+            ><br /><a
+              href="https://www.proquest.com/openview/11dfd7ef17ea941ef342ac940bb482b7/1"
+              class="underline text-blue-600"
+              >ProQuest Link</a
+            >
+          </li>
+          <li>
+            <strong>Anomalous Crystallization of Au and Other Metals</strong><br /><em
+              >Crystal Research and Technology, 2023</em
+            ><br /><a href="https://doi.org/10.1002/crat.202200259" class="underline text-blue-600">DOI Link</a>
+          </li>
+          <li>
+            <strong>Fabrication of Carbon Chains (Pseudo Carbynes)</strong><br /><em>Carbon, 2024</em><br /><a
+              href="https://doi.org/10.1016/j.carbon.2024.119118"
+              class="underline text-blue-600"
+              >DOI Link</a
+            >
+          </li>
+          <li>
+            <strong>Atomically Precise Nanoclusters as Co‐Catalysts</strong><br /><em>Small, 2025</em><br /><a
+              href="https://doi.org/10.1002/smll.202411517"
+              class="underline text-blue-600"
+              >DOI Link</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 bg-white">
+      <div class="container mx-auto max-w-3xl text-center">
+        <h3 class="text-3xl font-bold mb-6">About Me</h3>
+        <p class="text-gray-700">
+          I'm Blake K. Rogers, a multidisciplinary engineer specializing in electron microscopy, smart materials, and
+          precision instrumentation. I bring ideas to life through hands-on prototyping, system automation, and
+          nanomaterials research.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t py-4 text-center text-sm text-gray-500">
+      &copy; 2025 Blake K. Rogers. All rights reserved.
+    </footer>
+
+    <!-- Add this modal structure at the end of the body -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+  <div class="relative">
+    <img id="modalImage" src="" alt="Full Size Image" class="max-w-full max-h-screen rounded shadow-lg" />
+    <button
+      id="closeModal"
+      class="absolute top-2 right-2 text-white bg-gray-800 hover:bg-gray-700 rounded-full p-2"
+    >
+      &times;
+    </button>
+  </div>
+</div>
+
+<script>
+  // JavaScript to handle image click and modal display
+  document.querySelectorAll('img').forEach((img) => {
+    img.addEventListener('click', () => {
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      modalImage.src = img.src; // Set the modal image source to the clicked image
+      modal.classList.remove('hidden'); // Show the modal
+    });
+  });
+
+  // Close modal when clicking the close button
+  document.getElementById('closeModal').addEventListener('click', () => {
+    document.getElementById('imageModal').classList.add('hidden');
+  });
+
+  // Close modal when clicking outside the image
+  document.getElementById('imageModal').addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) {
+      e.currentTarget.classList.add('hidden');
+    }
+  });
+</script>
+  </body>
+</html>
