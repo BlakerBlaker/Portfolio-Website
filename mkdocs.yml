@@ -1,0 +1,42 @@
+site_name: Blake K Rogers PhD
+site_description: Personal portfolio website of Blake K Rogers PhD
+site_url: https://drblake.org
+theme:
+  name: material
+  palette: 
+    
+    # Palette toggle for light mode
+    - scheme: default
+      primary: grey
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:  
+  - Home: index.md
+  - About Me: aboutme.md
+  - CV: cv.md
+  - Projects: projects.md
+  - Gallery: gallery.md
+  - Publications: publications.md
+
+  - LinkedIn: https://www.linkedin.com/in/blakekrogers
+
+extra:
+  generator: false
