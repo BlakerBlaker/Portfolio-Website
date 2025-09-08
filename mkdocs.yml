@@ -30,15 +30,15 @@ theme:
 
 nav:  
   - Home: index.md
-  - About Me: aboutme.md
+  # - About Me: aboutme.md
   - CV: cv.md
   - Projects: projects.md
   - Gallery: gallery.md
-  - Publications: publications.md
+  # - Publications: publications.md
   - LinkedIn: https://www.linkedin.com/in/blakekrogers
 
-extra:
-  generator: false
+# extra:
+#   generator: false
 
 plugins:
   - glightbox:
@@ -61,3 +61,6 @@ plugins:
       
 markdown_extensions:
   - attr_list      
+  - toc:
+      baselevel: "1"
+      toc_depth: "2"
