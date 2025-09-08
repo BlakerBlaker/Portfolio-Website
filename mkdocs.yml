@@ -59,3 +59,6 @@ plugins:
       skip_classes:
         - skip-lightbox
       manual: false
+      
+markdown_extensions:
+  - attr_list      
