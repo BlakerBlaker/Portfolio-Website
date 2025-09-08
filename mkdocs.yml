@@ -40,3 +40,22 @@ nav:
 
 extra:
   generator: false
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      auto_themed: true
+      caption_position: bottom
+      background: black
+      shadow: true
+      skip_classes:
+        - skip-lightbox
+      manual: false
