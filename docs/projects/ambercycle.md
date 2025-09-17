@@ -6,7 +6,18 @@ At Ambercycle I worked as the lead engineer to create systems and processes from
 
 After we acquire a new space one of my first big projects was to design a lab space and a machine shop.
 
-![Finished Machine Shop](ambercycle/machine-shop/20200729_183326.jpg)
+
+
+
+![](ambercycle/machine-shop/20190109_185042.jpg)
+![](ambercycle/machine-shop/20200729_183314.jpg)
+![](ambercycle/machine-shop/20200729_183319.jpg)
+![](ambercycle/machine-shop/20200729_183326.jpg)
+![](ambercycle/machine-shop/20200729_183329.jpg)
+![](ambercycle/machine-shop/20200729_183332.jpg)
+![](ambercycle/machine-shop/20200729_183335.jpg)
+![](ambercycle/machine-shop/20200729_183340.jpg)
+
 
 ## Lab-Scale Reactors
 
@@ -26,6 +37,15 @@ Jacketed Tri-Clamp parts made heating and cooling easy.
 I was also able to source inexpensive VFD's and 3PH motors to create programmable stirring systems with high-torque.
 
 ![Main Reactor with Custom Stirring System](ambercycle/lab-scale-reactors\20190225_192348.jpg)
+
+![](ambercycle/lab-scale-reactors/20190222_172235.jpg)
+![](ambercycle/lab-scale-reactors/20190225_192345.jpg)
+![](ambercycle/lab-scale-reactors/20190225_192348.jpg)
+![](ambercycle/lab-scale-reactors/20190227_144941.jpg)
+![](ambercycle/lab-scale-reactors/Ambercycle-HoodReactor-1.jpg)
+
+
+
 
 ## Ambition
 
