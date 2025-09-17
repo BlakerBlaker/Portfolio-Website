@@ -1,10 +1,10 @@
 # Ambercycle
 
-At Ambercycle I worke as the lead engineer to create systems and processes from the ground up. 
+At Ambercycle I worked as the lead engineer to create systems and processes from the ground up. 
 
 ## Machine Shop
 
-After we aquire a new space one of my first big projects was to design a lab space and a machine shop.
+After we acquire a new space one of my first big projects was to design a lab space and a machine shop.
 
 ![Finished Machine Shop](ambercycle/machine-shop/20200729_183326.jpg)
 
@@ -14,7 +14,7 @@ Once the machine shoe was finished I immediately began constructing lab-scale re
 
 ![Lab Reactor Filter Base](ambercycle/lab-scale-reactors\20190222_172235.jpg)
 
-Tri-Clamp parts were leveraged as often as possible to spped up the assembly process and allow for fast changes to the design.
+Tri-Clamp parts were leveraged as often as possible to speed up the assembly process and allow for fast changes to the design.
 
 ![Assembled Lab-Scale Reactor](ambercycle/lab-scale-reactors\20190225_192345.jpg)
 

@@ -23,6 +23,6 @@ hide:
 </div>
  -->
 
- ![Backgorund Image](projects/nau/me575/PhD-SMAPZT-1.jpg)
+ ![Background Image](projects/nau/me575/PhD-SMAPZT-1.jpg)
 
 
