@@ -1,9 +1,28 @@
 ---
+title:
 hide:
-  - navigation
   - toc
+  - navigation
 ---
-# Home
-![SMA-PZT Actiator](images/PhD-SMAPZT-1.jpg){.skip-lightbox}
-Welcome to my Portfolio page, if you have come here because I applied for a job, or if you are thinking about offering one to me, then do it already.
-![SMA Catapult](images/PhD-SMACatapult.jpg)
+<!-- 
+# Welcome
+
+<div class="grid cards" markdown>
+-   :material-rocket: **Link 1**
+    Short one-line description.  
+    [:octicons-arrow-right-16: Open](LINK_1/)
+
+-   :material-book: **Link 2**
+    Short one-line description.  
+    [:octicons-arrow-right-16: Open](LINK_2/)
+
+-   :material-book: 
+    [**Projects**](projects.md)
+    
+    
+</div>
+ -->
+
+ ![Backgorund Image](projects/nau/me575/PhD-SMAPZT-1.jpg)
+
+

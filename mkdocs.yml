@@ -2,6 +2,8 @@ site_name: Blake K Rogers PhD
 site_description: Personal portfolio website of Blake K Rogers PhD
 site_url: https://drblake.org
 theme:
+  icon:
+    logo: material/saw-blade
   name: material
   palette: 
     
@@ -27,17 +29,17 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
 
 nav:  
-  - Home: index.md
-  # - About Me: aboutme.md
   - CV: cv.md
   - Projects: 
-    - NAU: nau.md
-    - Ambercycle: ambercycle.md
-    - Intel: intel.md
-    - ASU: asu.md
-    - Personal: personal.md
+    # - Roles: projects/index.md
+    - NAU: projects/nau.md
+    - Ambercycle: projects/ambercycle.md
+    - Intel: projects/intel.md
+    - ASU: projects/asu.md
+    - Personal: projects/personal.md
   # - Gallery: gallery.md
   # - Publications: publications.md
   - LinkedIn: https://www.linkedin.com/in/blakekrogers
@@ -69,3 +71,9 @@ markdown_extensions:
   - toc:
       baselevel: "1"
       toc_depth: "2"
+ 
+  - md_in_html         # allow Markdown inside HTML blocks
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
