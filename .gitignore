@@ -22,3 +22,7 @@ tmp
 .venv
 env/
 venv/
+
+# Unwanted Image Files
+*.tif
+*.tiff

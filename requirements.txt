@@ -2,3 +2,4 @@ mkdocs-glightbox
 mkdocs-material
 mkdocs-material-components
 pymdown-extensions
+pyspelling

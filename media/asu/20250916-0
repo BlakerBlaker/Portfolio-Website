@@ -1,0 +1,26 @@
+header: This is the header of my Image Gallery
+footer: This is the footer of my Image Gallery
+
+Projects:
+  - name: Electromigration
+    description: ""
+    order: 1
+    folderpath: /docs/media/asu/electromigration
+    links: # Optional
+    catagories: # Optional
+
+  - name: Masters
+    description: ""
+    order: 2
+    folderpath: /docs/media/asu/masters
+    links: # Optional
+    catagories: # Optional
+
+  - name: Labratory Assistant
+    description: ""
+    order: 3
+    folderpath: //docs/media/asu/petuskey-lab
+    links: # Optional
+    catagories: # Optional
+
+  
