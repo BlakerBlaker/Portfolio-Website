@@ -32,8 +32,13 @@ nav:
   - Home: index.md
   # - About Me: aboutme.md
   - CV: cv.md
-  - Projects: projects.md
-  - Gallery: gallery.md
+  - Projects: 
+    - NAU: nau.md
+    - Ambercycle: ambercycle.md
+    - Intel: intel.md
+    - ASU: asu.md
+    - Personal: personal.md
+  # - Gallery: gallery.md
   # - Publications: publications.md
   - LinkedIn: https://www.linkedin.com/in/blakekrogers
 
