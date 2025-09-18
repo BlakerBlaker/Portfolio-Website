@@ -6,9 +6,6 @@ At Ambercycle I worked as the lead engineer to create systems and processes from
 
 After we acquire a new space one of my first big projects was to design a lab space and a machine shop.
 
-
-
-
 ![](ambercycle/machine-shop/20190109_185042.jpg)
 ![](ambercycle/machine-shop/20200729_183314.jpg)
 ![](ambercycle/machine-shop/20200729_183319.jpg)
@@ -21,9 +18,9 @@ After we acquire a new space one of my first big projects was to design a lab sp
 
 ## Lab-Scale Reactors
 
-Once the machine shoe was finished I immediately began constructing lab-scale reactors to study new processes.
+Once the machine shop was finished I immediately began constructing lab-scale reactors to study new processes.
 
-![Lab Reactor Filter Base](ambercycle/lab-scale-reactors\20190222_172235.jpg)
+![Lab Reactor Filter Base](ambercycle/lab-scale-reactors/20190222_172235.jpg)
 
 Tri-Clamp parts were leveraged as often as possible to speed up the assembly process and allow for fast changes to the design.
 
@@ -31,17 +28,15 @@ Tri-Clamp parts were leveraged as often as possible to speed up the assembly pro
 
 This reactor assembly took less than a week to machine and assemble:
 
-![Reactor for filtration studies](ambercycle/lab-scale-reactors\20190227_144941.jpg)
+![Reactor for filtration studies](ambercycle/lab-scale-reactors/20190227_144941.jpg)
 
 Jacketed Tri-Clamp parts made heating and cooling easy.
 I was also able to source inexpensive VFD's and 3PH motors to create programmable stirring systems with high-torque.
 
-![Main Reactor with Custom Stirring System](ambercycle/lab-scale-reactors\20190225_192348.jpg)
+![Main Reactor with Custom Stirring System](ambercycle/lab-scale-reactors/20190225_192348.jpg)
 
-![](ambercycle/lab-scale-reactors/20190222_172235.jpg)
-![](ambercycle/lab-scale-reactors/20190225_192345.jpg)
-![](ambercycle/lab-scale-reactors/20190225_192348.jpg)
-![](ambercycle/lab-scale-reactors/20190227_144941.jpg)
+![Assembled Lab-Scale Reactor](ambercycle/lab-scale-reactors/20190225_192345.jpg)
+
 ![](ambercycle/lab-scale-reactors/Ambercycle-HoodReactor-1.jpg)
 
 
