@@ -4,25 +4,24 @@ hide:
   - toc
   - navigation
 ---
-<!-- 
-# Welcome
+<!-- <div style="text-align: justify"> -->
 
-<div class="grid cards" markdown>
--   :material-rocket: **Link 1**
-    Short one-line description.  
-    [:octicons-arrow-right-16: Open](LINK_1/)
+Hi, I am a Materials Scientist with extensive experience in Mechanical Engineering. 
+Over the past several years I have taken on roles in metrology, reactor design, electron microscopy, and research & development.
+In each of these roles I have leveraged the practical skills I acquired from my parents and grandparents with technical knowledge from my education.
+In some ways I am a generalist, however whenever I am presented a challenge I devote my efforts to understanding everything I can about it.
+As such I am a generalist with many specialties. This website contains a few examples of the projects that I have engaged in over the past several years.
+If you like what you see please reach out to me via [LinkedIn](https://www.linkedin.com/in/blakekrogers )
 
--   :material-book: **Link 2**
-    Short one-line description.  
-    [:octicons-arrow-right-16: Open](LINK_2/)
+<!-- </div> -->
 
--   :material-book: 
-    [**Projects**](projects.md)
-    
-    
+ ![Background Image](projects/nau/phd/Screenshot 2025-09-16 163827.png){: align=left }
+
+<div style="text-align: justify">
+
+The image above is a collection of Large Angle Convergent Beam Electron Diffraction (LACBED) patterns.
+These were generated on a Transmission Electron Microscope (TEM) with a silicon sample. Diffraction patterns made using LACBED, or more generally, using Convergent Beam Electron Diffraction (CBED) contain a great deal of information, and while their interpretation is more involved it is possible to fully determine a crystal system using patterns such as these. Furthermore they provide a means to measure localized strain and imperfections with precision.
+
 </div>
- -->
-
- ![Background Image](projects/nau/me575/PhD-SMAPZT-1.jpg)
 
 

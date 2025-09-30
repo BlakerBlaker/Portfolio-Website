@@ -31,7 +31,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
 
-nav:  
+nav:
+  - Home: index.md  
   - CV: cv.md
   - Projects: 
     # - Roles: projects/index.md
