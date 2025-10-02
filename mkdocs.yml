@@ -33,6 +33,7 @@ theme:
 
 nav:
   - Home: index.md  
+  - About Me: about.md
   - CV: cv.md
   - Projects: 
     # - Roles: projects/index.md

@@ -230,7 +230,7 @@ Graduated: 2017
 
 ---
 
-Degree earned: Bachlor of Science and Engineering
+Degree earned: Bachelor of Science and Engineering
 
 School: Ira Funton School of Engineering
 
