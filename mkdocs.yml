@@ -5,6 +5,7 @@ theme:
   icon:
     logo: material/saw-blade
   name: material
+  custom_dir: material
   palette: 
     
     # Palette toggle for light mode
@@ -24,7 +25,7 @@ theme:
         name: Switch to light mode
         
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tabs
@@ -32,7 +33,7 @@ theme:
     - navigation.indexes
 
 nav:
-  - Home: index.md  
+  - Home: index.md
   - About Me: about.md
   - CV: cv.md
   - Projects: 
@@ -43,7 +44,7 @@ nav:
     - ASU: projects/asu.md
     - Personal: projects/personal.md
   # - Gallery: gallery.md
-  # - Publications: publications.md
+  - Publications: publications.md
   - LinkedIn: https://www.linkedin.com/in/blakekrogers
 
 # extra:

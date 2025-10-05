@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BKR Portfolio — Materials Science</title>
+<meta name="description" content="Portfolio of Blake K Rogers, PhD — Materials Scientist and Engineer. Projects, publications, and CV." />
+<style>
+:root{
+  /* theme */
+  --bg:#0b0d1000; --text:#ecded5; --muted:#b57a61;
+  --card:#12151a; --accent:#b36d4d; --accent-2:#704126;
+
+  /* hero */
+  --hero-image:url("/assets/background.png");
+  --hero-bg-translate:3rem; --hero-bg-position:center; --hero-padding-top:5rem;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;scroll-behavior:smooth;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+
+/* Focus visibility */
+a:focus-visible,button:focus-visible{outline:2px solid currentColor;outline-offset:2px;border-radius:8px}
+
+/* Accessibility */
+.skip-link{position:absolute;left:-999px;background:#000c;color:#fff;padding:.5rem .75rem;border-radius:8px;z-index:1002}
+.skip-link:focus{left:1rem;top:1rem}
+
+/* Navigation */
+.nav{position:fixed;inset:0 0 auto 0;display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;background:rgba(12,14,18,.35);border-bottom:1px solid rgba(255,255,255,.06);backdrop-filter:saturate(140%) blur(10px);z-index:1000}
+.brand{font-weight:700;display:flex;align-items:center;gap:.5rem;text-decoration:none;color:var(--text)}
+.nav-links{display:flex;list-style:none;gap:1rem;align-items:center}
+.nav-links a{color:var(--text);text-decoration:none;padding:.5rem .75rem;border-radius:10px;font-size:.95rem;opacity:.9;transition:.2s}
+.nav-links a:hover{opacity:1;background:rgba(255,255,255,.06)}
+.hamburger{display:none;background:none;border:0;color:var(--text);font-size:1.4rem;cursor:pointer;padding:.4rem .6rem;border-radius:10px}
+
+/* Mobile menu (JS enhances with hidden/aria) */
+@media(max-width:860px){
+  .hamburger{display:inline-block}
+  .nav-links{
+    position:fixed;inset:56px 1rem auto 1rem;flex-direction:column;gap:.5rem;
+    background:rgba(18,21,26,.96);border:1px solid rgba(255,255,255,.08);border-radius:14px;
+    padding:.75rem;transform-origin:top right;transform:scale(.98) translateY(-8px);
+    opacity:0;pointer-events:none;transition:transform .18s ease,opacity .18s ease;
+  }
+  .nav-links[aria-hidden="false"]{transform:none;opacity:1;pointer-events:auto}
+}
+
+/* Hero */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;padding:5rem 1rem 3rem;text-align:center;overflow:hidden}
+.hero::before{
+  content:"";position:absolute;inset:0;background:var(--hero-image) var(--hero-bg-position)/cover no-repeat;
+  filter:saturate(1.05) brightness(.75);transform:translateY(var(--hero-bg-translate)) scale(1.02);z-index:-2
+}
+.hero::after{content:"";position:absolute;inset:0;background:
+  radial-gradient(1200px 800px at 50% 20%,rgba(125,211,252,.18),transparent 50%),
+  linear-gradient(to bottom,rgba(0,0,0,.45),rgba(0,0,0,.6));z-index:-1}
+.hero-inner{max-width:900px;padding:1.25rem}
+h1{margin:.75rem 0 .5rem;font-size:clamp(2rem,6vw,3.5rem);line-height:1.1;text-shadow:0 1px 10px rgba(0,0,0,.3)}
+.lead{margin:0 auto 1.25rem;max-width:60ch;color:var(--muted);font-size:clamp(1rem,2.1vw,1.15rem)}
+.cta-row{display:inline-flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+.btn{border:0;cursor:pointer;text-decoration:none;color:var(--text);padding:.8rem 1rem;border-radius:12px;font-weight:600;transition:.15s;display:inline-flex;align-items:center;gap:.5rem}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 30px rgba(167,139,250,.25);color:#0b0d10}
+.btn-primary:hover{transform:translateY(-1px)}
+
+/* Footer */
+footer{color:var(--muted);padding:3rem 1rem;text-align:center}
+footer a{color:var(--text);opacity:.85;text-decoration:none}
+footer a:hover{opacity:1;text-decoration:underline}
+
+/* Reduced motion */
+@media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+
+/* Optional scroll lock when menu is open */
+.no-scroll{overflow:hidden}
+</style>
+
+<!-- JSON-LD Person (optional SEO) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Blake K Rogers",
+  "jobTitle":"Materials Scientist and Engineer",
+  "url":"https://example.com",
+  "sameAs":["https://www.linkedin.com/in/blakekrogers"]
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<nav class="nav" aria-label="Primary">
+  <a class="brand" href="/">Blake K Rogers PhD</a>
+  <button class="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Open menu">☰</button>
+  <ul id="menu" class="nav-links" aria-hidden="true">
+    <li><a href="/about">About Me</a></li>
+    <li><a href="/cv">CV</a></li>
+    <li><a href="/projects/nau">Projects</a></li>
+    <li><a href="/publications">Publications</a></li>
+    <li><a href="https://www.linkedin.com/in/blakekrogers" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Blake K Rogers PhD</h1>
+      <p class="lead">Materials Scientist and Engineer</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="/projects/nau/">Explore my Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Future main content sections go here -->
+</main>
+
+<!-- <footer>
+  © <span id="year"></span> Blake K Rogers. <a href="/privacy">Privacy</a>
+</footer> -->
+
+<script>
+const menu = document.getElementById('menu');
+const ham  = document.querySelector('.hamburger');
+const firstLink = menu?.querySelector('a');
+
+// Set initial mobile state on load (collapsed) while keeping desktop visible
+function setInitialMenuState(){
+  const isMobile = window.matchMedia('(max-width: 860px)').matches;
+  menu?.setAttribute('aria-hidden', String(isMobile)); // hidden when mobile
+  ham?.setAttribute('aria-expanded', String(!isMobile ? true : false)); // expanded on desktop
+  document.documentElement.classList.toggle('no-scroll', false);
+}
+setInitialMenuState();
+
+// Toggle with proper ARIA + tab order safety
+function setMenu(open){
+  menu?.setAttribute('aria-hidden', String(!open));
+  ham?.setAttribute('aria-expanded', String(open));
+  document.documentElement.classList.toggle('no-scroll', open);
+  if(open){ firstLink?.focus(); } else { ham?.focus(); }
+}
+
+ham?.addEventListener('click', () => {
+  const open = menu?.getAttribute('aria-hidden') === 'true';
+  setMenu(open);
+});
+
+window.addEventListener('keydown', e => {
+  if(e.key === 'Escape'){ setMenu(false); }
+});
+
+// Close on link click (mobile)
+menu?.addEventListener('click', e => {
+  if(e.target.closest('a') && window.matchMedia('(max-width: 860px)').matches){
+    setMenu(false);
+  }
+});
+
+// Keep menu visible when resizing to desktop
+window.addEventListener('resize', setInitialMenuState);
+
+// Year in footer
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<noscript>
+  <style>
+    /* JS off: show nav links; mobile menu won’t collapse */
+    .nav-links{display:flex !important;opacity:1 !important;pointer-events:auto !important;transform:none !important}
+  </style>
+</noscript>
+</body>
+</html>
