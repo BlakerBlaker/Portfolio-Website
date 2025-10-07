@@ -50,7 +50,7 @@ Tri-Clamp parts were leveraged as often as possible to speed up the assembly pro
 
 And when specific tri-clamp parts were not avaliable, they were created by modifying tri-clamp caps.
 
-![Assembled Lab-Scale Reactor](ambercycle/lab-scale-reactors\20190225_192345.jpg)
+![Assembled Lab-Scale Reactor](ambercycle/lab-scale-reactors/20190225_192345.jpg)
 
 This filter was modified to have a hot-oil jacket, by using the 12in flange on to bottom an offset was also created that was used to hold the filters in place once assembled.
 
