@@ -5,7 +5,7 @@ hide:
   - navigation
 ---
 
-![A protrait of Blake Rogers](images/headshot-temp.jpg)
+![A protrait of Blake Rogers](images/headshot.png)
 
 Hi, I am a Materials Scientist with extensive experience in Mechanical Engineering. 
 Over the past several years I have taken on roles in metrology, reactor design, electron microscopy, and research & development.

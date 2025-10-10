@@ -5,7 +5,7 @@ At Ambercycle I worked as the lead engineer to create systems and processes from
 
 ## Machine Shop
 
-After we acquire a new space one of my first big projects was to design a lab space and a machine shop.
+After we acquired a new space one of my first big projects was to design a lab space and a machine shop.
 
 
 ![Tig Welding Station](ambercycle/machine-shop/20190109_185042.jpg)

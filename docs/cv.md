@@ -1,11 +1,17 @@
 ---
 hide:
   - navigation
-
+downloads:
+  -file: cv.pdf
+  -title: PDF
 ---
+
+[View as PDF](cv.pdf)
 
 ## Summary
 <div style="text-align: justify">
+
+<!-- [PDF Download](cv.pdf) -->
 
 Materials scientist and mechanical engineer with deep expertise in electron microscopy, advanced manufacturing, and thermal systems. Proven ability to lead advanced R&D, deliver cost-effective engineering solutions, and build research infrastructure from the ground up. Published researcher and inventor with a track record of innovation across industry and academia.
 
