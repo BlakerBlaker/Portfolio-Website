@@ -5,7 +5,7 @@ hide:
   - navigation
 ---
 
-![A portrait of Blake Rogers](images/headshot.png){: style="max-width:50%" align=left}
+![A portrait of Blake Rogers](images/headshot-crop.png){: style="max-width:50%" align=left}
 
 <div style="text-align: justify">
 
