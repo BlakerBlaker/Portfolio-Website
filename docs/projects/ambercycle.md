@@ -21,7 +21,7 @@ The Bandsaw was another good find, it was a fixed base miter so the saw itself p
 
 ![Soldering and Electronics Testing Station](ambercycle/machine-shop/20200729_183319.jpg)
 
-Soldering, and testing equipment was a must, the occiliscope was especially useful when testing flowmeters and signal devices.
+Soldering, and testing equipment was a must, the oscilloscope was especially useful when testing flowmeters and signal devices.
 
 
 ![Manual E-Lathe with 21in Swing](ambercycle/machine-shop/20200729_183326.jpg)
@@ -38,7 +38,7 @@ The size allowed me to work with taller pieces.
 
 ![Hanging Tool Organizer](ambercycle/machine-shop/20200729_183332.jpg)
 
-Our tools quickly multipled despite the machine shop staying the same size. Organization was key to keeping everything running smoothly. 
+Our tools quickly multiplied despite the machine shop staying the same size. Organization was key to keeping everything running smoothly.
 
 
 ![View of Worknbench](ambercycle/machine-shop/20200729_183335.jpg)
@@ -54,7 +54,7 @@ Welding machining and grinding soil clothing quickly, so I incorporated a washer
 
 ![Hood-Sized Reactor](ambercycle/lab-scale-reactors/Ambercycle-HoodReactor-1.jpg)
 
-Before joining Ambercycle permanently I was asked to create a lab-sclae reactor and filter system.
+Before joining Ambercycle permanently I was asked to create a lab-scale reactor and filter system.
 At the time they needed it to fit inside a benchtop hood. The design, though compact, was very successful and I was offered a permanent position shortly afterwards. 
 
 
@@ -70,7 +70,7 @@ Tri-Clamp parts were leveraged as often as possible to speed up the assembly pro
 
 ![Lab Reactor Filter Base](ambercycle/lab-scale-reactors/20190222_172235.jpg)
 
-And when specific tri-clamp parts were not avaliable, they were created by modifying tri-clamp caps.
+And when specific tri-clamp parts were not available, they were created by modifying tri-clamp caps.
 
 
 ![Assembled Lab-Scale Reactor](ambercycle/lab-scale-reactors/20190225_192345.jpg)
@@ -90,9 +90,9 @@ Here again is the assemble reactor, this system was designed, built, and operati
 
 ## Ambition
 
-My first Pilot-Scale reactor was aptly names Ambition. The goal was to build a system around a Netuche filter that had been purchased used.
+My first Pilot-Scale reactor was aptly named Ambition. The goal was to build a system around a Netuche filter that had been purchased used.
 Restoring the filter to operation was not without it's challenges, but we succeeded in putting this systems together in about three months.
-Because of the agressive timeline, I had to create custom solutions where more favorable solutions would take too long to procure.
+Because of the aggressive timeline, I had to create custom solutions where more favorable solutions would take too long to procure.
 
 
 ![Magnetically Coupled Stir Motor](ambercycle/ambition/20190321_164617.jpg)
@@ -101,7 +101,7 @@ One of these custom solutions was a magnetically coupled stir-motor for the reac
 Because we were working with difficult solvents, traditional seals were not a favorable option.
 My solution was to machine this system and magnetically couple the shaft and motor through a very thin ~2mm sheet of SS316.
 This sheet was actually just a portion of a tri-clamp cap that had been thinned out in the middle.
-The stirring section was built using 316SS and featured a custom labrinth seal and full ceramic bearings.
+The stirring section was built using 316SS and featured a custom labyrinth seal and full ceramic bearings.
 It was a lot of work, but I was able to design, procure, machine, and assemble the whole system very quickly.
 
 
@@ -112,22 +112,22 @@ Here the system is shown with the VFD in place as well.
 
 ![Close up of Magnetic Coupler](ambercycle/ambition/20190329_161437.jpg)
 
-A close up shows how the system was couples through a thinned out tri-clamp cap.
+A close up shows how the system was coupled through a thinned out tri-clamp cap.
 
 
 ![Side View of Magnetic Stir Motor](ambercycle/ambition/20190331_154336.jpg)
 
-Here the system is shown with the shaft and labrinth seal installed.
+Here the system is shown with the shaft and labyrinth seal installed.
 
 
 ![Ambition in Early Stages](ambercycle/ambition/20190425_194559.jpg)
 
-This is a very early view of anbition just after the Netuche filter and platform were installed.
+This is a very early view of Ambition just after the Netuche filter and platform were installed.
 
 
 ![Hydraulic System](ambercycle/ambition/20190426_181726.jpg)
 
-Since the project was on a rush schedule I had to refurbish the included hydraulic system with readily avaliable parts.
+Since the project was on a rush schedule I had to refurbish the included hydraulic system with readily available parts.
 
 
 ![Reactor & Crystallizer](ambercycle/ambition/20190506_172025.jpg)
@@ -154,7 +154,7 @@ The goal here is to create uniform crystals and avoid agglomerization so washing
 ## Solace
 
 Shortly after completing and using the Ambition reactor to produce good product another chemistry was discovered that had obvious advantages over the chemistry used for Ambition.
-The advantages were so compelling that we immediatley put Ambition on hold and began to design and create a pilot-scale reactor for the new chemistry.
+The advantages were so compelling that we immediately put Ambition on hold and began to design and create a pilot-scale reactor for the new chemistry.
 We called this project Solace because it was a more simple process im many ways. However the simplicity was not without it's challenges.
 The solvent used in Ambition did not produce any appreciable pressure at the temperatures we operated at. Solace on the other had would be operating at about 500 PSI and 400 degrees F.
 These operating conditions combined with the chemical compatibility of the solvent used meant that PTFE and the cost prohibitave FFKM were our only choices in non-metallic seat materials.
@@ -173,7 +173,7 @@ For safety reasons the entire system was contained in a closed off room with it 
 
 ![View of PID Arrays Solace Near Completion](ambercycle/solace/20191031_165125.jpg)
 
-PID arrays were created using easily sorced enclosures and laser cut face plates. All PID's were connected to a computer via RS485 for monitoring, controlm, and logging.
+PID arrays were created using easily sorced enclosures and laser cut face plates. All PID's were connected to a computer via RS485 for monitoring, control, and logging.
 
 
 ![Another View of Nearly Completed Solace and PID Arrays](ambercycle/solace/20191031_165137.jpg)
@@ -188,29 +188,29 @@ Here is another view of the system as it neared completion.
 
 ![Condenser Coils](ambercycle/solace/20191031_171859.jpg)
 
-This is the primary condensing unit for Solace, it was oversized to handle bursts of vapor during crystallization, during solvent regeration it easliy rejected about 50KW of heat.
+This is the primary condensing unit for Solace, it was oversized to handle bursts of vapor during crystallization, during solvent regeneration it easily rejected about 50KW of heat.
 
 
 ![Brazed Plate Heat Exchangers](ambercycle/solace/20191031_165150.jpg)
 
-Our solvent was routinely purified via distillation and supercooled prior to returing to storage. These heat exchangers were the first attempt at supercooling, and while they worked fairly well they were difficult to implement prior to phase seperation of the nitrogen gas (the gas would effectively reduce the surface area of the heat exchangers). Early on it was apparent that a new solution was necessary, and this was quiclky created an implemented as shown below.
+Our solvent was routinely purified via distillation and supercooled prior to returning to storage. These heat exchangers were the first attempt at supercooling, and while they worked fairly well they were difficult to implement prior to phase separation of the nitrogen gas (the gas would effectively reduce the surface area of the heat exchangers). Early on it was apparent that a new solution was necessary, and this was quickly created and implemented as shown below.
 
 
-![Liquid/Gas Heat Echanger Bubbler 1st Iteration (bottom)](ambercycle/solace/20200805_184217.jpg)
+![Liquid/Gas Heat Exchanger Bubbler 1st Iteration (bottom)](ambercycle/solace/20200805_184217.jpg)
 
-In spite of the oversized condenser coil solvent losses were still high since phase seperation was happening at elevated temperatures. The phase seperation was necessary because nitrogen was present in our system as it was used to purge oxygen, move things around, and backbleed the gate valves. The solution was a gas/liquid heat exchanger and phase seperator in one. This was the first iteration of the bubbler component of the system (bottom view).
+In spite of the oversized condenser coil solvent losses were still high since phase separation was happening at elevated temperatures. The phase separation was necessary because nitrogen was present in our system as it was used to purge oxygen, move things around, and backbleed the gate valves. The solution was a gas/liquid heat exchanger and phase separator in one. This was the first iteration of the bubbler component of the system (bottom view).
 
 
-![Liquid/Gas Heat Echanger Bubbler 1st Iteration (top)](ambercycle/solace/20200805_184221.jpg)
+![Liquid/Gas Heat Exchanger Bubbler 1st Iteration (top)](ambercycle/solace/20200805_184221.jpg)
  
  And here is a top view of the 1st iteration bubbler component. Testing was done using water to determine if the bubbles remained small or coalesced, this iteration performed poorly. The 2nd iteration was howerver a success.
 
 
-![Liquid/Gas Heat Echanger Being Assembled](ambercycle/solace/20200825_142905.jpg)
+![Liquid/Gas Heat Exchanger Being Assembled](ambercycle/solace/20200825_142905.jpg)
 
-Here you can see a much improved version of the bubbler. In this system supercooled liquid solvent was maintained within a specific range of volume using level indicators and valves driven by relay logic. The solvent/nitrogen mixture was bubbled through the supercooled liquid and the nitorgen was allowed to escape while the solvant vapor condensed and stayed in the solution. Raschig rings were added as a final obstacle for the solvant. 
+Here you can see a much improved version of the bubbler. In this system supercooled liquid solvent was maintained within a specific range of volume using level indicators and valves driven by relay logic. The solvent/nitrogen mixture was bubbled through the supercooled liquid and the nitrogen was allowed to escape while the solvent vapor condensed and stayed in the solution. Raschig rings were added as a final obstacle for the solvent. 
 
 
-![Liquid/Gas Heat Echanger Operational](ambercycle/solace/20200828_122226.jpg)
+![Liquid/Gas Heat Exchanger Operational](ambercycle/solace/20200828_122226.jpg)
 
-Here the heat exchanger / phase seperator is installed and functional. This system was extremely successful and solvent losses were very minimal.
+Here the heat exchanger / phase separator is installed and functional. This system was extremely successful and solvent losses were very minimal.
